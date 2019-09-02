@@ -1,0 +1,224 @@
+
+body {
+    font-family: 'Open Sans Light', sans-serif;
+    font-size: 14px;
+    color: #989c9e;
+}
+
+a {
+    color: #363838;    
+}
+a:hover {
+    color: #989c9e;    
+}
+
+/*--- Nav bar --*/
+.navbar {
+    border-bottom: 1px solid #c9cccd;
+}
+
+.nav .search-button button {
+    border: solid 1px #697683;
+    box-shadow: none;
+    background-color: #697683;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.navbar-nav .btn-info {
+    padding: 5px 12px 5px 12px !important;
+    margin-right: 20px !important;
+
+}
+
+.selected_tab_title {
+    font-family: 'Open Sans', sans-serif;   
+}
+
+.nav-tabs {
+    margin: 10px 0px 20px 0px;
+}
+
+
+.navbar-brand a:hover{
+    text-decoration: none;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+}
+
+
+.container .main {
+    margin: 0px 0px 0px 0px;
+    min-height: 600px;
+}
+
+.active_trends {
+    margin-top: 30px;
+}
+
+.nav-item .active {
+    color: black;
+}
+
+/*--- Media queries --*/
+@media only screen and (max-width: 768px) {
+    .navbar-nav .btn-info {
+      margin-top: 5px; 
+    }
+}
+  
+@media only screen and (min-width: 768px) {
+  #navbarSupportedContent {
+        margin-right: -30px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #group-delete {
+        margin-right: 20px;
+    }
+}
+
+/*--- Post --*/
+
+.post .comments .comment_background {
+    background-color: #6c757d;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 12px 17px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Open Sans Bold', sans-serif; 
+    position: relative;
+}
+
+.post .comments .comment_background .mark {
+    width: 11px;
+    height: 11px;
+    background-color: #6c757d;
+    position: absolute;
+    bottom: 0;
+    left: 43%;
+    margin-bottom: -5px;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg); /* IE 9 */
+    -webkit-transform:rotate(45deg); /* Opera, Chrome, and Safari */
+}
+
+.post {
+    background-color: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px #c9cccd;
+    margin-bottom: 20px;
+}
+
+.post .content_wrapper {
+    width: 85%;
+}
+
+.post .content {
+    width: 83%;
+    padding-right: 30px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    color: #989c9e;
+    font-size: 14px;
+    font-family: 'Open Sans Light', sans-serif;   
+    line-height: 25px;
+}
+
+.post .stats {
+    width: 15%;
+    border-left: solid 1px #f1f1f1;
+}
+
+.post .avatar {
+    width: 37px;
+    margin-left: 5px;
+    padding: 20px 0 10px 10px;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+.post h2 {
+    color: #363838;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.post .comments {
+    border-bottom: solid 1px #f1f1f1;
+    padding: 18px 0 25px 0;
+    text-align: center;
+}
+
+.post .views {
+    border-bottom: solid 1px #f1f1f1;
+    color:#989c9e;
+    font-size: 12px;
+    font-family: 'Open Sans Regular', sans-serif; 
+    text-align: center;
+    line-height: 29px;
+}
+
+.post .views i {
+    font-size: 14px;
+}
+
+.post .time {
+    color:#989c9e;
+    font-size: 12px;
+    font-family: 'Open Sans Regular', sans-serif; 
+    text-align: center;
+    line-height: 29px;
+
+}
+
+.post .time i {
+    font-size: 14px;
+}
+
+.avatar img {
+    border-radius: 50%;
+}
+
+.page-title {
+    padding: 15px 0px 0px 15px;
+}
+
+.profile-pills {
+    margin-bottom: 20px;
+}
+
+
+.side-menu a {
+    color: #989c9e;
+}
+
+.section {
+    margin: 30px 0px 0px 0px;
+}
+
+/*--- Footer --*/
+footer {
+	padding: 20px;
+	text-align: center;
+	margin-top:15px;
+	background: black;
+}
+
+footer .copyrights {
+	margin-top: 40px;
+}
+
+
+footer hr {
+    border-top: none;
+    border-bottom: 1px solid #666;
+}

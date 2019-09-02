@@ -1,0 +1,91 @@
+/**
+  Babatunde Adeniyi
+**/
+
+
+body {
+    font-family: 'Open Sans Light', sans-serif;
+    font-size: 14px;
+    color: #989c9e;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #363838;    
+}
+a:hover {
+    color: #989c9e;    
+}
+
+/*-- Nav Bar ---*/
+.navbar {
+    border-bottom: 1px solid #c9cccd;
+}
+
+
+.navbar-brand {
+    font-family: cursive;
+    font-weight: bold;
+}
+
+/*--- Footer--*/
+footer{
+	padding: 20px;
+	text-align: center;
+	margin-top:15px;
+	background: black;
+}
+
+footer .copyrights {
+	margin-top: 40px;
+}
+
+
+footer hr {
+    border-top: none;
+    border-bottom: 1px solid #666;
+}
+
+#content_wrapper {
+    min-height: 700px;
+}
+
+#content_wrapper .card {
+    margin-top: 20px;
+}
+
+#content_wrapper h2 {
+    margin-top: 20px;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-brand img {
+        margin-top: 8px;
+    }
+
+    .card {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+}
+
+.note-popover.popover {
+    display: none;
+}
+
+
+.navbar-brand a:hover{
+    text-decoration: none;
+}
+
+textarea {
+    width: 90%;
+    height: 250px;
+  }
